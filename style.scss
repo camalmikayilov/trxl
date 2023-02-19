@@ -1,0 +1,438 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+// Start Body
+body {
+    background-image: url('./assests/image/background_main.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    // Start Header
+    header {
+        width: 100%;
+
+        // Start Header Container
+        .container {
+            margin: 24px 47px;
+
+            // Start Nav
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                // Start Header Logo
+                .logo {
+                    cursor: pointer;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 37px;
+                        color: #FFFFFF;
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                    }
+                }
+
+                // End Header Logo
+
+                // Start Header List
+                .header__list {
+
+                    // Start Header Lists
+                    .header__lists {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        gap: 25px;
+
+                        .header_lists__item {
+                            :hover {
+                                color: #000000;
+                            }
+
+                            a {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #FFFFFF;
+                                opacity: 0.7;
+                                flex: none;
+                                order: 0;
+                                flex-grow: 0;
+                            }
+                        }
+                    }
+
+                    // End Header Lists
+                }
+
+                // End Header List
+            }
+
+            // End Nav
+        }
+
+        // End Header Container
+    }
+
+    // End Header
+
+    // Start Main
+    .entry__container {
+        margin: 125px 120px;
+
+        #entry {
+            h2 {
+                font-weight: 700;
+                font-size: 72px;
+                line-height: 83px;
+                color: #FFFFFF;
+            }
+
+            // Start Entry Search
+            .entry__search {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 83px;
+                    color: #FFFFFF;
+                }
+
+                input {
+                    width: 80%;
+                    height: 60px;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(16px);
+                    border-radius: 16px;
+                    outline: none;
+                }
+            }
+
+            // End Entry Search
+        }
+    }
+
+    // Start Elements
+    .container {
+        margin: 125px 120px;
+    }
+
+    .elements {
+        h3 {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 37px;
+            color: #FFFFFF;
+        }
+
+        .elements__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .items {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 30px;
+
+                i {
+                    color: #FFFFFF;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #FFFFFF;
+                    opacity: 0.4;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    // End Elements
+
+    // Start Beach Container
+    .beach__container {
+        margin: 125px 120px;
+
+        h3 {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 37px;
+            color: #1f3d7a;
+        }
+
+        // Start Beach
+        #beach {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            // Start Beach Card
+            .beach__card {
+                width: 27%;
+                height: 500px;
+                margin-top: 30px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
+                border-radius: 16px;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+
+                // Start Card Img
+                .img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        margin-top: 10px;
+                    }
+                }
+
+                // End Card Img
+
+                // Start Card Text
+                .card__text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 10px;
+                    padding-top: 10px;
+
+                    // Start Card Text First
+                    .card_text__first {
+                        h6 {
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 31px;
+                            color: #000000;
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                            opacity: 0.5;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                        }
+                    }
+
+                    // End Card Text First
+
+                    // Start Card Text Second
+                    .card_text__second {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 31px;
+                            color: #000000;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    // End Card Text Second
+                }
+
+                // End Card Text
+
+                // Start Card Icons
+                .card__icons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 10px;
+                    padding-top: 20px;
+
+                    .card_icons_item {
+                        i {
+                            color: #000000;
+                            opacity: 0.5;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 15px;
+                            color: #000000;
+                            opacity: 0.5;
+                            flex: none;
+                            order: 1;
+                            flex-grow: 0;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                // End Card Icons
+
+                // Start Card List
+                .card__list {
+                    margin: 0 10px;
+                    padding-top: 15px;
+
+                    ul {
+                        li {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #000000;
+                            opacity: 0.5;
+                            flex: none;
+                            order: 0;
+                            flex-grow: 0;
+                            margin-top: 5px;
+                        }
+                    }
+                }
+
+                // End Card List    
+
+                // Start Card Pay
+                .card__pay {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin: 0 10px;
+                    padding-top: 15px;
+
+                    h6 {
+                        font-weight: 100;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-decoration-line: line-through;
+                        color: #000000;
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                    }
+
+                    h5 {
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 31px;
+                        color: #000000;
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                    }
+                }
+
+                // End Card pay
+            }
+
+            // End Beach Card
+        }
+
+        // End Beach
+    }
+
+    // End Beach Container
+
+    // End Main
+
+    // Start Footer
+    footer {
+        width: 100%;
+        height: 288px;
+        background: #141414;
+
+        .footer__container {
+            margin: 125px 120px;
+            padding-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            .logo {
+                cursor: pointer;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 37px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .foot__text {
+                :hover {
+                    color: #FFFFFF;
+                }
+
+                p {
+                    cursor: pointer;
+                    padding-top: 15px;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 17px;
+                    color: #808080;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+        }
+    }
+
+    // End Footer
+}
+
+// End Body
+
+@media(max-width: 800px) {
+    #beach{
+        flex-direction: column;
+        .beach__card{
+            width: 60% !important;
+        }
+    }
+}
